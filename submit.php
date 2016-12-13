@@ -4,15 +4,15 @@ if( $_POST ){
  
     $fname = $_POST['txt_fname'];
     $lname = $_POST['txt_lname'];
-    $phno = $_POST['txt_contact'];
     $email = $_POST['txt_email'];
+    $phno = $_POST['txt_phone'];
     $addr_street = $_POST['txt_addr_street'];
-    $addr_city = $_POST['txt_addr_city'];
     $addr_state = $_POST['txt_addr_state'];
+    $addr_city = $_POST['txt_addr_city'];
     
     $addr_zip = $_POST['txt_addr_zip'];
     
-    $txt_msg = $_POST['txt_contact'];
+    $txt_msg = $_POST['dForm-Subject'];
 
     ?>
     
@@ -66,6 +66,10 @@ if( $_POST ){
     <td><?php echo $addr_zip; ?></td>
     </tr>        
 
+    <tr>
+    <td>Comments</td>
+    <td><?php echo $txt_msg; ?></td>
+    </tr>  
     
     </table>
     <?php

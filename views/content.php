@@ -15,12 +15,12 @@
 
                     <div class="form-group col-md-6">
                         First Name*
-                        <input type="text" class="form-control" name="txt_fname" id="lname" placeholder="First Name" required />
+                        <input type="text" class="form-control" name="txt_fname" id="first-name" placeholder="First Name" required />
                     </div>
 
                     <div class="form-group col-md-6">
                         Last Name*
-                        <input type="text" class="form-control" name="txt_lname" id="lname" placeholder="Last Name" required />
+                        <input type="text" class="form-control" name="txt_lname" id="last-name" placeholder="Last Name" required />
                     </div>
 
                     <div class="form-group col-md-6">
@@ -115,7 +115,7 @@
 
                     <div class="form-group col-md-6">
                         Comments
-                        <textarea type="text" class="form-control" name="txt_contact" id="txt_msg" placeholder="Message" required></textarea>
+                        <textarea type="text" class="form-control" name="dForm-Subject" id="txt_msg" placeholder="Message" required></textarea>
                     </div>
 
                     <hr />
