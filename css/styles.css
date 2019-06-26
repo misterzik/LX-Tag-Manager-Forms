@@ -1,1 +1,39 @@
-body{overflow-x:hidden}header{background:#000}#form-content{margin-top:6rem}.topLogo{display:block;width:100%;height:96px}.lexusTitle{font-size:2.5em;word-spacing:0.3rem;line-height:1.2;display:block;color:#fff;margin-top:-7rem;margin-left:15rem}iframe .tag{overflow:hidden;overflow-x:hidden;overflow-y:hidden}
+body {
+    overflow-x: hidden
+}
+
+header {
+    background: #000
+}
+
+#form-content {
+    margin-top: 6rem
+}
+
+.topLogo {
+    display: block;
+    width: 100%;
+    height: 96px
+}
+
+.topLogo>img {
+    width: 91px;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.lexusTitle {
+    font-size: 2.5em;
+    word-spacing: 0.3rem;
+    line-height: 1.2;
+    display: block;
+    color: #3a3f3b;
+    margin-top: -5rem;
+    margin-left: 15rem;
+}
+
+iframe .tag {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
